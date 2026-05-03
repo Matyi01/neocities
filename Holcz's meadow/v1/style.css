@@ -1,0 +1,54 @@
+
+body {
+	background-color: DarkSlateGray;
+	color: DarkSeaGreen;
+	font-family: Monospace;
+	padding: 4rem;
+	padding-top: 1rem;
+}
+
+h1 {
+	color: LightGreen;
+	width: fit-content;
+	padding-bottom: 2rem;
+}
+
+#welcome {
+	font-size: 150%;
+	padding-bottom: 2rem;
+}
+
+.category {
+	width: 40%;
+	display: inline-block;
+	font-size: 120%;
+	vertical-align: top;
+}
+
+@media (max-width: 600px) {
+	.category {
+		width: 100%;
+		display: block;
+	}
+	body{
+		padding: 1rem;
+	}
+}
+
+#albums {
+	color: MediumAquaMarine;
+	padding-right: 2rem;
+}
+
+#hifi {
+	color: MediumTurquoise;
+}
+
+#laptop {
+	color: MediumSpringGreen;
+	padding-right: 2rem;
+}
+
+#pc {
+	color: PaleTurquoise;
+}
