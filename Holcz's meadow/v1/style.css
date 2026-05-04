@@ -1,16 +1,17 @@
 
 body {
-	background-color: DarkSlateGray;
-	color: DarkSeaGreen;
+	background-color: seagreen;
+	color: lightgreen;
 	font-family: Monospace;
 	padding: 4rem;
 	padding-top: 1rem;
 }
 
-h1 {
+#header {
 	color: LightGreen;
 	width: fit-content;
 	padding-bottom: 2rem;
+	font-size: 150%;
 }
 
 #welcome {
@@ -36,12 +37,12 @@ h1 {
 }
 
 #albums {
-	color: MediumAquaMarine;
+	color: palegreen;
 	padding-right: 2rem;
 }
 
 #hifi {
-	color: MediumTurquoise;
+	color: springgreen;
 }
 
 #laptop {
@@ -50,5 +51,5 @@ h1 {
 }
 
 #pc {
-	color: PaleTurquoise;
+	color: limegreen;
 }
